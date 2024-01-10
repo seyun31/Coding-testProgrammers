@@ -8,6 +8,10 @@ class Solution {
             answer += Integer.parseInt(strArr[i]);
             }
         
+        /* 위에 꺼 대신 for 루프문을 사용해도 됨
+            for(String s : strArr) {
+	            answer += Integer.parseInt(s); */
+        
          return answer;
         }
     }
